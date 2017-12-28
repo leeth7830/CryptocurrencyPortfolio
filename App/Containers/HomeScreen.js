@@ -3,8 +3,10 @@ import {
   AppRegistry,
   StyleSheet,
   Text,
-  View
+  View,
+  Image
 } from 'react-native';
+import { Images } from '../Themes'
 
 export default class HomeScreen extends Component {
   static navigationOptions = {
@@ -16,7 +18,7 @@ export default class HomeScreen extends Component {
       />
     )
   };
-  
+
   render () {
     return (
       <View style={styles.container}>

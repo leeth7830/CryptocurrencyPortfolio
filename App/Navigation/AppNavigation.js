@@ -5,15 +5,15 @@ import styles from './Styles/NavigationStyles'
 
 // Manifest of possible screens
 const PrimaryNav = TabNavigator({
-  HomeScreen: { screen: HomeScreen },
-  HomeScreen: { screen: HomeScreen },
-  HomeScreen: { screen: HomeScreen },
-  HomeScreen: { screen: HomeScreen },
-  HomeScreen: { screen: HomeScreen },
+  HomeScreen1: { screen: HomeScreen },
+  HomeScreen2: { screen: HomeScreen },
+  HomeScreen3: { screen: HomeScreen },
+  HomeScreen4: { screen: HomeScreen },
+  HomeScreen5: { screen: HomeScreen },
 }, {
   // Default config for all screens
   headerMode: 'none',
-  initialRouteName: 'LaunchScreen1',
+  initialRouteName: 'HomeScreen1',
   tabBarPosition: 'bottom',
   animationEnabled: true,
   swipeEnabled: true,
