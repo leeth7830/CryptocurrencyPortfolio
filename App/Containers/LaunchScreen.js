@@ -6,6 +6,16 @@ import { Images } from '../Themes'
 import styles from './Styles/LaunchScreenStyles'
 
 export default class LaunchScreen extends Component {
+  static navigationOptions = {
+    tabBarLabel: 'Home',
+    tabBarIcon: () => (
+      <Image
+        source={Images.home}
+        style={{ width: 20, height: 20, tintColor: 'white' }}
+      />
+    )
+  };
+
   render () {
     return (
       <View style={styles.mainContainer}>
