@@ -16,7 +16,8 @@ const PrimaryNav = TabNavigator({
   initialRouteName: 'HomeScreen1',
   tabBarPosition: 'bottom',
   animationEnabled: true,
-  swipeEnabled: true,
+  swipeEnabled: false,
+  lazy: true,
   navigationOptions: {
     headerStyle: styles.header,
   },
