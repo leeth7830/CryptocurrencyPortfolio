@@ -1,12 +1,13 @@
 import { StackNavigator, TabNavigator } from 'react-navigation'
 import LaunchScreen from '../Containers/LaunchScreen'
 import HomeScreen from '../Containers/HomeScreen'
+import Chart from '../Themes/Chart'
 import styles from './Styles/NavigationStyles'
 
 // Manifest of possible screens
 const PrimaryNav = TabNavigator({
   HomeScreen1: { screen: HomeScreen },
-  HomeScreen2: { screen: HomeScreen },
+  HomeScreen2: { screen: Chart },
   HomeScreen3: { screen: HomeScreen },
   HomeScreen4: { screen: HomeScreen },
   HomeScreen5: { screen: HomeScreen },
