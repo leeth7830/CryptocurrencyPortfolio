@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { StyleSheet, View, Image} from 'react-native';
-import {Images, Chart} from '../Themes'
+import {Images, Chart, Ranges} from '../Themes'
 
 export default class HomeScreen extends Component {
   static navigationOptions = {
@@ -16,6 +16,7 @@ export default class HomeScreen extends Component {
     return (
       <View style={styles.container}>
         <Chart />
+        <Ranges />
       </View>
     );
   }
